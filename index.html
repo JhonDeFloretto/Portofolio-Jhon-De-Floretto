@@ -1,64 +1,586 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Portfolio | Jhon De Floretto</title>
-<script>(function(){var d=document.documentElement,t=location.hash==='#t';if(t)d.classList.add('arriving','nosplash')})()</script>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-<noscript><style>.rv{opacity:1;--ty:0px}.w>span{transform:none}.hero .lab,.hero .role,.hero .d,.hero .btns,.hero .pw{opacity:1;transform:none}</style></noscript>
-</head>
-<body>
-<div class="bg"><i></i><i></i><i></i></div>
-<div id="prog"></div>
-<div id="splash"><div class="bg"><i></i><i></i><i></i></div><div class="sp"><div class="mark glass">JF</div><h1>Jhon De Floretto</h1><p>Information Systems · Bina Nusantara University</p><div class="ld"><i></i></div></div></div>
-<div id="cv" aria-hidden="true"><i></i><i></i></div>
-<header>
-  <div class="bar glass">
-    <a class="logo" href="index.html"><b>JF</b><span><strong>Jhon De Floretto</strong><small>Information Systems Student</small></span></a>
-    <nav><a href="index.html" class="on" aria-current="page">Home</a><a href="about.html">About Me</a><a href="experience.html">My Experience</a><a href="skills.html">Skills</a><a href="projects.html">Project</a></nav>
-    <a class="cta" href="#contact">Contact</a>
-  </div>
-</header>
-<main class="page">
-<section class="hero">
-  <div>
-    <p class="lab">Hello, I’m</p>
-    <h1 data-split>Jhon De Floretto</h1>
-    <p class="role">Aspiring Systems Analyst</p>
-    <p class="d">Master Track student in Information Systems at Bina Nusantara University, with strong analytical skills in database design, systems analysis, and requirements analysis.</p>
-    <div class="btns"><a class="btn" href="projects.html">View my projects</a><a class="btn alt" href="about.html">About me</a></div>
-  </div>
-  <div class="pw">
-    <div class="frame glass tilt"><img src="photo.jpg" alt="Portrait of Jhon De Floretto in a black suit and navy tie"></div>
-    <div class="badges">
-      <div class="badge glass"><b data-count="3.95" data-dec="2">3.95</b><span>GPA, Master of Information Systems Management</span></div>
-      <div class="badge glass"><b data-count="6">6</b><span>Projects in analysis, design, and web</span></div>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Portfolio | Jhon De Floretto</title>
+    <script>
+      (function () {
+        var d = document.documentElement,
+          t = location.hash === "#t";
+        if (t) d.classList.add("arriving", "nosplash");
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <noscript
+      ><style>
+        .rv {
+          opacity: 1;
+          --ty: 0px;
+        }
+        .w > span {
+          transform: none;
+        }
+        .hero .lab,
+        .hero .role,
+        .hero .d,
+        .hero .btns,
+        .hero .pw {
+          opacity: 1;
+          transform: none;
+        }
+      </style></noscript
+    >
+  </head>
+  <body>
+    <div class="bg"><i></i><i></i><i></i></div>
+    <div id="prog"></div>
+    <div id="splash">
+      <div class="bg"><i></i><i></i><i></i></div>
+      <div class="sp">
+        <div class="mark glass">JF</div>
+        <h1>Jhon De Floretto</h1>
+        <p>Information Systems · Bina Nusantara University</p>
+        <div class="ld"><i></i></div>
+      </div>
     </div>
-  </div>
-</section>
-<div class="card about rv">
-  <div><p class="lab">About me</p><h2 style="margin-bottom:14px">Building data-driven systems</h2></div>
-  <div><p>Experienced in building and managing databases, designing ERDs, prototyping in Figma, and developing websites with PHP, JavaScript, and CSS. Adaptable under pressure and committed to developing into a Systems Analyst.</p><a class="btn alt" href="about.html" style="display:inline-block">More about me</a></div>
-</div>
-<div class="card rv"><p class="lab">Tools and skills</p><h2 style="margin-bottom:20px">Technologies I use</h2>
-<div class="tiles"><div class="tile rv tilt"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#F24E1E" d="M15.852 8.981h-4.588V0h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.491-4.49 4.491zM12.735 7.51h3.117c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-3.117V7.51zm0 1.471H8.148c-2.476 0-4.49-2.014-4.49-4.49S5.672 0 8.148 0h4.588v8.981zm-4.587-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.02 3.019 3.02h3.117V1.471H8.148zm4.587 15.019H8.148c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h4.588v8.98zM8.148 8.981c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h3.117V8.981H8.148zM8.172 24c-2.489 0-4.515-2.014-4.515-4.49s2.014-4.49 4.49-4.49h4.588v4.441c0 2.503-2.047 4.539-4.563 4.539zm-.024-7.51a3.023 3.023 0 0 0-3.019 3.019c0 1.665 1.365 3.019 3.044 3.019 1.705 0 3.093-1.376 3.093-3.068v-2.97H8.148zm7.704 0h-.098c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h.098c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.49-4.49 4.49zm-.097-7.509c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h.098c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-.098z"/></svg>Figma</div><div class="tile rv tilt"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#F08705" d="M19.69 13.419h-2.527l-2.667-4.555a1.292 1.292 0 001.035-1.28V4.16c0-.725-.576-1.312-1.302-1.312H9.771c-.726 0-1.312.576-1.312 1.301v3.435c0 .619.426 1.152 1.034 1.28l-2.666 4.555H4.309c-.725 0-1.312.576-1.312 1.301v3.435c0 .725.576 1.312 1.302 1.312h4.458c.726 0 1.312-.576 1.312-1.302v-3.434c0-.726-.576-1.312-1.301-1.312h-.437l2.645-4.523h2.059l2.656 4.523h-.438c-.725 0-1.312.576-1.312 1.301v3.435c0 .725.576 1.312 1.302 1.312H19.7c.726 0 1.312-.576 1.312-1.302v-3.434c0-.726-.576-1.312-1.301-1.312zM24 22.976c0 .565-.459 1.024-1.013 1.024H1.024A1.022 1.022 0 010 22.987V1.024C0 .459.459 0 1.013 0h21.963C23.541 0 24 .459 24 1.013z"/></svg>Draw.io</div><div class="tile rv tilt"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#E34F26" d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"/></svg>HTML</div><div class="tile rv tilt"><svg aria-hidden="true" viewBox="0 0 128 128"><path fill="#1572B6" d="M18.814 114.123L8.76 1.352h110.48l-10.064 112.754-45.243 12.543-45.119-12.526z"/><path fill="#33A9DC" d="M64.001 117.062l36.559-10.136 8.601-96.354h-45.16v106.49z"/><path fill="#fff" d="M64.001 51.429h18.302l1.264-14.163H64.001V23.435h34.682l-.332 3.711-3.4 38.114h-30.95V51.429z"/><path fill="#EBEBEB" d="M64.083 87.349l-.061.018-15.403-4.159-.985-11.031H33.752l1.937 21.717 28.331 7.863.063-.018v-14.39z"/><path fill="#fff" d="M81.127 64.675l-1.666 18.522-15.426 4.164v14.39l28.354-7.858.208-2.337 2.406-26.881H81.127z"/><path fill="#EBEBEB" d="M64.048 23.435v13.831H30.64l-.277-3.108-.63-7.012-.331-3.711h34.646zm-.047 27.996v13.831H48.792l-.277-3.108-.631-7.012-.33-3.711h16.447z"/></svg>CSS</div><div class="tile rv tilt"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#F7DF1E" d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"/></svg>JavaScript</div><div class="tile rv tilt"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#777BB4" d="M7.01 10.207h-.944l-.515 2.648h.838c.556 0 .97-.105 1.242-.314.272-.21.455-.559.55-1.049.092-.47.05-.802-.124-.995-.175-.193-.523-.29-1.047-.29zM12 5.688C5.373 5.688 0 8.514 0 12s5.373 6.313 12 6.313S24 15.486 24 12c0-3.486-5.373-6.312-12-6.312zm-3.26 7.451c-.261.25-.575.438-.917.551-.336.108-.765.164-1.285.164H5.357l-.327 1.681H3.652l1.23-6.326h2.65c.797 0 1.378.209 1.744.628.366.418.476 1.002.33 1.752a2.836 2.836 0 0 1-.305.847c-.143.255-.33.49-.561.703zm4.024.715l.543-2.799c.063-.318.039-.536-.068-.651-.107-.116-.336-.174-.687-.174H11.46l-.704 3.625H9.388l1.23-6.327h1.367l-.327 1.682h1.218c.767 0 1.295.134 1.586.401s.378.7.263 1.299l-.572 2.944h-1.389zm7.597-2.265a2.782 2.782 0 0 1-.305.847c-.143.255-.33.49-.561.703a2.44 2.44 0 0 1-.917.551c-.336.108-.765.164-1.286.164h-1.18l-.327 1.682h-1.378l1.23-6.326h2.649c.797 0 1.378.209 1.744.628.366.417.477 1.001.331 1.751zM17.766 10.207h-.943l-.516 2.648h.838c.557 0 .971-.105 1.242-.314.272-.21.455-.559.551-1.049.092-.47.049-.802-.125-.995s-.524-.29-1.047-.29z"/></svg>PHP</div><div class="tile rv tilt"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#3776AB" d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98l-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09zm13.09 3.95l.28.06.32.12.35.18.36.27.36.35.35.47.32.59.28.73.21.88.14 1.04.05 1.23-.06 1.23-.16 1.04-.24.86-.32.71-.36.57-.4.45-.42.33-.42.24-.4.16-.36.09-.32.05-.24.02-.16-.01h-8.22v.82h5.84l.01 2.76.02.36-.05.34-.11.31-.17.29-.25.25-.31.24-.38.2-.44.17-.51.15-.58.13-.64.09-.71.07-.77.04-.84.01-1.27-.04-1.07-.14-.9-.2-.73-.25-.59-.3-.45-.33-.34-.34-.25-.34-.16-.33-.1-.3-.04-.25-.02-.2.01-.13v-5.34l.05-.64.13-.54.21-.46.26-.38.3-.32.33-.24.35-.2.35-.14.33-.1.3-.06.26-.04.21-.02.13-.01h5.84l.69-.05.59-.14.5-.21.41-.28.33-.32.27-.35.2-.36.15-.36.1-.35.07-.32.04-.28.02-.21V6.07h2.09l.14.01zm-6.47 14.25l-.23.33-.08.41.08.41.23.33.33.23.41.08.41-.08.33-.23.23-.33.08-.41-.08-.41-.23-.33-.33-.23-.41-.08-.41.08z"/></svg>Python</div><div class="tile rv tilt"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#6C78AF" d="M5.463 3.476C6.69 5.225 7.497 7.399 7.68 9.798a12.9 12.9 0 0 1-.672 5.254 4.29 4.29 0 0 1 2.969-1.523c.05-.004.099-.006.148-.008.08-.491.47-3.45-.977-6.68-1.068-2.386-3-3.16-3.685-3.365Zm1.777.037s2.406 1.066 3.326 5.547c.607 2.955.049 4.836-.402 5.773a7.347 7.347 0 0 1 4.506-1.994c.86-.065 1.695.02 2.482.233-.1-.741-.593-3.414-2.732-5.92-3.263-3.823-7.18-3.64-7.18-3.64Zm14.817 9.701-17.92 3.049a2.284 2.284 0 0 1 1.535 2.254 2.31 2.31 0 0 1-.106.61c.055-.027 2.689-1.275 6.342-2.034 3.238-.673 5.723-.36 6.285-.273a6.46 6.46 0 0 1 3.864-3.606zm-6.213 4.078c-2.318 0-4.641.495-6.614 1.166-2.868.976-2.951 1.348-5.55 1.043C1.844 19.286 0 18.386 0 18.386s2.406 1.97 4.914 2.127c1.986.125 3.505-.822 5.315-1.414 2.661-.871 4.511-.97 6.253-.975C19.361 18.116 24 19.353 24 19.353s-2.11-1.044-5.033-1.72a13.885 13.885 0 0 0-3.123-.34Z"/></svg>phpMyAdmin</div></div></div>
-<div class="more"><div><p class="lab">Featured projects</p><h2>Selected work</h2></div><a class="glass" href="projects.html">View all projects</a></div>
-<div class="grid"><article class="card rv tilt"><span class="tag">Team</span><button class="pic" type="button" data-lightbox="cap.jpg" data-cap="Cap’s Style"><img src="cap.jpg" alt="Dashboard design for the Cap’s Style barbershop system" loading="lazy"><span class="zoom">View image</span></button><div class="in"><h3>Cap’s Style</h3><p class="meta">System Analyst</p><p>Designed the business process system for a barbershop to automate ordering and management.</p><a class="view" href="https://www.figma.com/proto/UPyUlLnW04OOwvaFUleBT7/Untitled?node-id=4-33&starting-point-node-id=4%3A33" target="_blank" rel="noopener" aria-label="View Cap’s Style on Figma"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#F24E1E" d="M15.852 8.981h-4.588V0h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.491-4.49 4.491zM12.735 7.51h3.117c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-3.117V7.51zm0 1.471H8.148c-2.476 0-4.49-2.014-4.49-4.49S5.672 0 8.148 0h4.588v8.981zm-4.587-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.02 3.019 3.02h3.117V1.471H8.148zm4.587 15.019H8.148c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h4.588v8.98zM8.148 8.981c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h3.117V8.981H8.148zM8.172 24c-2.489 0-4.515-2.014-4.515-4.49s2.014-4.49 4.49-4.49h4.588v4.441c0 2.503-2.047 4.539-4.563 4.539zm-.024-7.51a3.023 3.023 0 0 0-3.019 3.019c0 1.665 1.365 3.019 3.044 3.019 1.705 0 3.093-1.376 3.093-3.068v-2.97H8.148zm7.704 0h-.098c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h.098c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.49-4.49 4.49zm-.097-7.509c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h.098c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-.098z"/></svg> View on Figma</a></div></article><article class="card rv tilt"><span class="tag">Team</span><button class="pic" type="button" data-lightbox="stgulptea.jpg" data-cap="STGulpTea"><img src="stgulptea.jpg" alt="Mobile app screens for STGulpTea tea ordering" loading="lazy"><span class="zoom">View image</span></button><div class="in"><h3>STGulpTea</h3><p class="meta">UI/UX and system design</p><p>Designed a mobile app for online tea and matcha ordering.</p><a class="view" href="https://www.figma.com/design/BtXgfFF76Al51pSpiuJZuM/Untitled?node-id=0-1&p=f&t=4jkxa110dBilZIH3-0" target="_blank" rel="noopener" aria-label="View STGulpTea on Figma"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#F24E1E" d="M15.852 8.981h-4.588V0h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.491-4.49 4.491zM12.735 7.51h3.117c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-3.117V7.51zm0 1.471H8.148c-2.476 0-4.49-2.014-4.49-4.49S5.672 0 8.148 0h4.588v8.981zm-4.587-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.02 3.019 3.02h3.117V1.471H8.148zm4.587 15.019H8.148c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h4.588v8.98zM8.148 8.981c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h3.117V8.981H8.148zM8.172 24c-2.489 0-4.515-2.014-4.515-4.49s2.014-4.49 4.49-4.49h4.588v4.441c0 2.503-2.047 4.539-4.563 4.539zm-.024-7.51a3.023 3.023 0 0 0-3.019 3.019c0 1.665 1.365 3.019 3.044 3.019 1.705 0 3.093-1.376 3.093-3.068v-2.97H8.148zm7.704 0h-.098c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h.098c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.49-4.49 4.49zm-.097-7.509c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h.098c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-.098z"/></svg> View on Figma</a></div></article><article class="card rv tilt"><span class="tag">Team</span><button class="pic" type="button" data-lightbox="zerowaste.jpg" data-cap="ZeroWaste"><img src="zerowaste.jpg" alt="ZeroWaste dashboard showing points and waste statistics" loading="lazy"><span class="zoom">View image</span></button><div class="in"><h3>ZeroWaste</h3><p class="meta">Database developer</p><p>Developed a website for managing and exchanging waste with a points dashboard.</p><a class="view" href="https://github.com/JhonDeFloretto/Tugas_Akhir_Lecture" target="_blank" rel="noopener" aria-label="View ZeroWaste on GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#1E6261" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg> View on GitHub</a></div></article></div>
-</main>
-<footer>
-  <div class="fc glass">
-    <div><h3>Contact</h3><p>Flojhon251@gmail.com</p><p>087880434130</p></div>
-    <div class="links">
-      <a href="https://www.linkedin.com/in/jhon-de-floretto-67709a324" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="https://github.com/JhonDeFloretto" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://wa.me/6287880434130" target="_blank" rel="noopener">WhatsApp</a>
-      <a href="mailto:Flojhon251@gmail.com">Email</a>
-    </div>
-  </div>
-  <div class="copy">© 2026 Jhon De Floretto</div>
-</footer>
-<script src="main.js"></script>
-</body>
+    <div id="cv" aria-hidden="true"><i></i><i></i></div>
+    <header>
+      <div class="bar glass">
+        <a class="logo" href="index.html"
+          ><b>JF</b
+          ><span
+            ><strong>Jhon De Floretto</strong
+            ><small>Information Systems Student</small></span
+          ></a
+        >
+        <nav>
+          <a href="index.html" class="on" aria-current="page">Home</a
+          ><a href="about.html">About Me</a
+          ><a href="experience.html">My Experience</a
+          ><a href="skills.html">Skills</a><a href="projects.html">Project</a>
+        </nav>
+        <a class="cta" href="#contact">Contact</a>
+      </div>
+    </header>
+    <main class="page">
+      <section class="hero">
+        <div>
+          <p class="lab">Hello, I’m</p>
+          <h1 data-split>Jhon De Floretto</h1>
+          <p class="role">Aspiring Systems Analyst</p>
+          <p class="d">
+            Master Track student in Information Systems at Bina Nusantara
+            University, with strong analytical skills in database design,
+            systems analysis, and requirements analysis.
+          </p>
+          <div class="btns">
+            <a class="btn" href="projects.html">View my projects</a
+            ><a class="btn alt" href="about.html">About me</a>
+          </div>
+        </div>
+        <div class="pw">
+          <div
+            class="frame glass tilt flip"
+            tabindex="0"
+            aria-label="Profile photo. Press to flip and read about me"
+          >
+            <div class="fl">
+              <div class="face front">
+                <img
+                  src="photo.jpg"
+                  alt="Portrait of Jhon De Floretto in a black suit and navy tie"
+                /><span class="flip-hint">↻ Tap to flip</span>
+              </div>
+              <div class="face back">
+                <p class="lab">Hello, I’m</p>
+                <h3>Jhon De Floretto</h3>
+                <p class="meta">Aspiring Systems Analyst</p>
+                <p class="bio">
+                  Information Systems student at Binus University with a deep
+                  interest in data-driven system development. I have hands-on
+                  experience in database design, programming, and systems
+                  analysis, and I’m used to translating business needs into
+                  efficient technology solutions.
+                </p>
+                <ul class="facts">
+                  <li>
+                    <b>Education:</b> Master of Information Systems Management,
+                    Binus University (2024 – Present), GPA 3.95
+                  </li>
+                  <li>
+                    <b>Databases:</b> phpMyAdmin, Oracle, SQL Server Management
+                    Studio
+                  </li>
+                  <li>
+                    <b>Design:</b> ERDs with Draw.io and Power Pivot,
+                    prototyping in Figma
+                  </li>
+                </ul>
+                <div class="dl">
+                  <a
+                    class="btn"
+                    href="https://drive.google.com/file/d/1fjqSUigGa7xUplwuHCnjZhvGOA30FbG3/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener"
+                    ><svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path
+                        d="M12 3v12m0 0l-5-5m5 5l5-5M5 20h14"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2.2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    Download CV</a
+                  ><a
+                    class="btn alt"
+                    href="https://drive.google.com/file/d/1L7vzZMmnB6mXG7-LMbK3HXnxAHoeU4X5/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener"
+                    ><svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path
+                        d="M12 3v12m0 0l-5-5m5 5l5-5M5 20h14"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2.2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    Download Portfolio</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="badges">
+            <div class="badge glass">
+              <b data-count="3.95" data-dec="2">3.95</b
+              ><span>GPA, Master of Information Systems Management</span>
+            </div>
+            <div class="badge glass">
+              <b data-count="9">9</b
+              ><span
+                >Projects in analysis, design, and web, plus 1 research
+                paper</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="card about rv">
+        <div>
+          <p class="lab">About me</p>
+          <h2 style="margin-bottom: 14px">Building data-driven systems</h2>
+        </div>
+        <div>
+          <p>
+            Experienced in building and managing databases, designing ERDs,
+            prototyping in Figma, and developing websites with PHP, JavaScript,
+            and CSS. Adaptable under pressure and committed to developing into a
+            Systems Analyst.
+          </p>
+          <a class="btn alt" href="about.html" style="display: inline-block"
+            >More about me</a
+          >
+        </div>
+      </div>
+      <div class="card rv">
+        <p class="lab">Tools and skills</p>
+        <h2 style="margin-bottom: 20px">Technologies I use</h2>
+        <div class="tiles">
+          <div class="tile rv tilt">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                fill="#F24E1E"
+                d="M15.852 8.981h-4.588V0h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.491-4.49 4.491zM12.735 7.51h3.117c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-3.117V7.51zm0 1.471H8.148c-2.476 0-4.49-2.014-4.49-4.49S5.672 0 8.148 0h4.588v8.981zm-4.587-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.02 3.019 3.02h3.117V1.471H8.148zm4.587 15.019H8.148c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h4.588v8.98zM8.148 8.981c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h3.117V8.981H8.148zM8.172 24c-2.489 0-4.515-2.014-4.515-4.49s2.014-4.49 4.49-4.49h4.588v4.441c0 2.503-2.047 4.539-4.563 4.539zm-.024-7.51a3.023 3.023 0 0 0-3.019 3.019c0 1.665 1.365 3.019 3.044 3.019 1.705 0 3.093-1.376 3.093-3.068v-2.97H8.148zm7.704 0h-.098c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h.098c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.49-4.49 4.49zm-.097-7.509c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h.098c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-.098z"
+              /></svg
+            >Figma
+          </div>
+          <div class="tile rv tilt">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                fill="#F08705"
+                d="M19.69 13.419h-2.527l-2.667-4.555a1.292 1.292 0 001.035-1.28V4.16c0-.725-.576-1.312-1.302-1.312H9.771c-.726 0-1.312.576-1.312 1.301v3.435c0 .619.426 1.152 1.034 1.28l-2.666 4.555H4.309c-.725 0-1.312.576-1.312 1.301v3.435c0 .725.576 1.312 1.302 1.312h4.458c.726 0 1.312-.576 1.312-1.302v-3.434c0-.726-.576-1.312-1.301-1.312h-.437l2.645-4.523h2.059l2.656 4.523h-.438c-.725 0-1.312.576-1.312 1.301v3.435c0 .725.576 1.312 1.302 1.312H19.7c.726 0 1.312-.576 1.312-1.302v-3.434c0-.726-.576-1.312-1.301-1.312zM24 22.976c0 .565-.459 1.024-1.013 1.024H1.024A1.022 1.022 0 010 22.987V1.024C0 .459.459 0 1.013 0h21.963C23.541 0 24 .459 24 1.013z"
+              /></svg
+            >Draw.io
+          </div>
+          <div class="tile rv tilt">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                fill="#E34F26"
+                d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"
+              /></svg
+            >HTML
+          </div>
+          <div class="tile rv tilt">
+            <svg aria-hidden="true" viewBox="0 0 128 128">
+              <path
+                fill="#1572B6"
+                d="M18.814 114.123L8.76 1.352h110.48l-10.064 112.754-45.243 12.543-45.119-12.526z"
+              />
+              <path
+                fill="#33A9DC"
+                d="M64.001 117.062l36.559-10.136 8.601-96.354h-45.16v106.49z"
+              />
+              <path
+                fill="#fff"
+                d="M64.001 51.429h18.302l1.264-14.163H64.001V23.435h34.682l-.332 3.711-3.4 38.114h-30.95V51.429z"
+              />
+              <path
+                fill="#EBEBEB"
+                d="M64.083 87.349l-.061.018-15.403-4.159-.985-11.031H33.752l1.937 21.717 28.331 7.863.063-.018v-14.39z"
+              />
+              <path
+                fill="#fff"
+                d="M81.127 64.675l-1.666 18.522-15.426 4.164v14.39l28.354-7.858.208-2.337 2.406-26.881H81.127z"
+              />
+              <path
+                fill="#EBEBEB"
+                d="M64.048 23.435v13.831H30.64l-.277-3.108-.63-7.012-.331-3.711h34.646zm-.047 27.996v13.831H48.792l-.277-3.108-.631-7.012-.33-3.711h16.447z"
+              /></svg
+            >CSS
+          </div>
+          <div class="tile rv tilt">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                fill="#F7DF1E"
+                d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"
+              /></svg
+            >JavaScript
+          </div>
+          <div class="tile rv tilt">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                fill="#777BB4"
+                d="M7.01 10.207h-.944l-.515 2.648h.838c.556 0 .97-.105 1.242-.314.272-.21.455-.559.55-1.049.092-.47.05-.802-.124-.995-.175-.193-.523-.29-1.047-.29zM12 5.688C5.373 5.688 0 8.514 0 12s5.373 6.313 12 6.313S24 15.486 24 12c0-3.486-5.373-6.312-12-6.312zm-3.26 7.451c-.261.25-.575.438-.917.551-.336.108-.765.164-1.285.164H5.357l-.327 1.681H3.652l1.23-6.326h2.65c.797 0 1.378.209 1.744.628.366.418.476 1.002.33 1.752a2.836 2.836 0 0 1-.305.847c-.143.255-.33.49-.561.703zm4.024.715l.543-2.799c.063-.318.039-.536-.068-.651-.107-.116-.336-.174-.687-.174H11.46l-.704 3.625H9.388l1.23-6.327h1.367l-.327 1.682h1.218c.767 0 1.295.134 1.586.401s.378.7.263 1.299l-.572 2.944h-1.389zm7.597-2.265a2.782 2.782 0 0 1-.305.847c-.143.255-.33.49-.561.703a2.44 2.44 0 0 1-.917.551c-.336.108-.765.164-1.286.164h-1.18l-.327 1.682h-1.378l1.23-6.326h2.649c.797 0 1.378.209 1.744.628.366.417.477 1.001.331 1.751zM17.766 10.207h-.943l-.516 2.648h.838c.557 0 .971-.105 1.242-.314.272-.21.455-.559.551-1.049.092-.47.049-.802-.125-.995s-.524-.29-1.047-.29z"
+              /></svg
+            >PHP
+          </div>
+          <div class="tile rv tilt">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                fill="#3776AB"
+                d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98l-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09zm13.09 3.95l.28.06.32.12.35.18.36.27.36.35.35.47.32.59.28.73.21.88.14 1.04.05 1.23-.06 1.23-.16 1.04-.24.86-.32.71-.36.57-.4.45-.42.33-.42.24-.4.16-.36.09-.32.05-.24.02-.16-.01h-8.22v.82h5.84l.01 2.76.02.36-.05.34-.11.31-.17.29-.25.25-.31.24-.38.2-.44.17-.51.15-.58.13-.64.09-.71.07-.77.04-.84.01-1.27-.04-1.07-.14-.9-.2-.73-.25-.59-.3-.45-.33-.34-.34-.25-.34-.16-.33-.1-.3-.04-.25-.02-.2.01-.13v-5.34l.05-.64.13-.54.21-.46.26-.38.3-.32.33-.24.35-.2.35-.14.33-.1.3-.06.26-.04.21-.02.13-.01h5.84l.69-.05.59-.14.5-.21.41-.28.33-.32.27-.35.2-.36.15-.36.1-.35.07-.32.04-.28.02-.21V6.07h2.09l.14.01zm-6.47 14.25l-.23.33-.08.41.08.41.23.33.33.23.41.08.41-.08.33-.23.23-.33.08-.41-.08-.41-.23-.33-.33-.23-.41-.08-.41.08z"
+              /></svg
+            >Python
+          </div>
+          <div class="tile rv tilt">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                fill="#6C78AF"
+                d="M5.463 3.476C6.69 5.225 7.497 7.399 7.68 9.798a12.9 12.9 0 0 1-.672 5.254 4.29 4.29 0 0 1 2.969-1.523c.05-.004.099-.006.148-.008.08-.491.47-3.45-.977-6.68-1.068-2.386-3-3.16-3.685-3.365Zm1.777.037s2.406 1.066 3.326 5.547c.607 2.955.049 4.836-.402 5.773a7.347 7.347 0 0 1 4.506-1.994c.86-.065 1.695.02 2.482.233-.1-.741-.593-3.414-2.732-5.92-3.263-3.823-7.18-3.64-7.18-3.64Zm14.817 9.701-17.92 3.049a2.284 2.284 0 0 1 1.535 2.254 2.31 2.31 0 0 1-.106.61c.055-.027 2.689-1.275 6.342-2.034 3.238-.673 5.723-.36 6.285-.273a6.46 6.46 0 0 1 3.864-3.606zm-6.213 4.078c-2.318 0-4.641.495-6.614 1.166-2.868.976-2.951 1.348-5.55 1.043C1.844 19.286 0 18.386 0 18.386s2.406 1.97 4.914 2.127c1.986.125 3.505-.822 5.315-1.414 2.661-.871 4.511-.97 6.253-.975C19.361 18.116 24 19.353 24 19.353s-2.11-1.044-5.033-1.72a13.885 13.885 0 0 0-3.123-.34Z"
+              /></svg
+            >phpMyAdmin
+          </div>
+        </div>
+      </div>
+      <div class="more">
+        <div>
+          <p class="lab">Featured projects</p>
+          <h2>Selected work</h2>
+        </div>
+        <a class="glass" href="projects.html">View all projects</a>
+      </div>
+      <div class="grid">
+        <article
+          class="card rv tilt flip"
+          tabindex="0"
+          aria-label="Cap’s Style — press to flip for details"
+        >
+          <div class="fl">
+            <div class="face front">
+              <span class="flip-hint">↻ Click to flip</span
+              ><span class="tag">Team</span
+              ><button
+                class="pic"
+                type="button"
+                data-lightbox="cap.jpg"
+                data-cap="Cap’s Style"
+              >
+                <img
+                  src="cap.jpg"
+                  alt="Dashboard design for the Cap’s Style barbershop system"
+                  loading="lazy"
+                /><span class="zoom">View image</span>
+              </button>
+              <div class="in">
+                <h3>Cap’s Style</h3>
+                <p class="meta">System Analyst</p>
+                <p>
+                  Designed the business process system for a barbershop to
+                  automate ordering and management.
+                </p>
+                <div class="tools">
+                  <span>ERD</span><span>DFD</span><span>Use Case</span
+                  ><span>Class Diagram</span><span>Activity Diagram</span>
+                </div>
+                <a
+                  class="view"
+                  href="https://www.figma.com/proto/UPyUlLnW04OOwvaFUleBT7/Untitled?node-id=4-33&starting-point-node-id=4%3A33"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="View Cap’s Style on Figma"
+                  ><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      fill="#F24E1E"
+                      d="M15.852 8.981h-4.588V0h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.491-4.49 4.491zM12.735 7.51h3.117c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-3.117V7.51zm0 1.471H8.148c-2.476 0-4.49-2.014-4.49-4.49S5.672 0 8.148 0h4.588v8.981zm-4.587-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.02 3.019 3.02h3.117V1.471H8.148zm4.587 15.019H8.148c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h4.588v8.98zM8.148 8.981c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h3.117V8.981H8.148zM8.172 24c-2.489 0-4.515-2.014-4.515-4.49s2.014-4.49 4.49-4.49h4.588v4.441c0 2.503-2.047 4.539-4.563 4.539zm-.024-7.51a3.023 3.023 0 0 0-3.019 3.019c0 1.665 1.365 3.019 3.044 3.019 1.705 0 3.093-1.376 3.093-3.068v-2.97H8.148zm7.704 0h-.098c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h.098c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.49-4.49 4.49zm-.097-7.509c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h.098c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-.098z"
+                    />
+                  </svg>
+                  View on Figma</a
+                >
+              </div>
+            </div>
+            <div class="face back">
+              <p class="lab">
+                Team project · Information System Analysis and Design course
+              </p>
+              <h3>Cap’s Style</h3>
+              <p class="meta">System Analyst</p>
+              <p class="lbl">Overview</p>
+              <p>
+                A group project where we designed the business process of the
+                “Captain Barber” barbershop to run more efficiently and
+                automatically, especially customer ordering and process
+                management, including a dashboard for sales, customers,
+                packages, branches, and revenue.
+              </p>
+              <p class="lbl">What I did</p>
+              <ul>
+                <li>Worked as the team’s system analyst.</li>
+                <li>Designed the ERD and the Class Diagram.</li>
+                <li>Mapped the data flow with a DFD.</li>
+                <li>Created several Use Case and Activity Diagrams.</li>
+                <li>Used Draw.io and Visual Paradigm for the diagrams.</li>
+              </ul>
+              <div class="acts">
+                <a
+                  class="view"
+                  href="https://www.figma.com/proto/UPyUlLnW04OOwvaFUleBT7/Untitled?node-id=4-33&starting-point-node-id=4%3A33"
+                  target="_blank"
+                  rel="noopener"
+                  ><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      fill="#F24E1E"
+                      d="M15.852 8.981h-4.588V0h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.491-4.49 4.491zM12.735 7.51h3.117c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-3.117V7.51zm0 1.471H8.148c-2.476 0-4.49-2.014-4.49-4.49S5.672 0 8.148 0h4.588v8.981zm-4.587-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.02 3.019 3.02h3.117V1.471H8.148zm4.587 15.019H8.148c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h4.588v8.98zM8.148 8.981c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h3.117V8.981H8.148zM8.172 24c-2.489 0-4.515-2.014-4.515-4.49s2.014-4.49 4.49-4.49h4.588v4.441c0 2.503-2.047 4.539-4.563 4.539zm-.024-7.51a3.023 3.023 0 0 0-3.019 3.019c0 1.665 1.365 3.019 3.044 3.019 1.705 0 3.093-1.376 3.093-3.068v-2.97H8.148zm7.704 0h-.098c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h.098c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.49-4.49 4.49zm-.097-7.509c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h.098c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-.098z"
+                    />
+                  </svg>
+                  View on Figma</a
+                >
+              </div>
+            </div>
+          </div>
+        </article>
+        <article
+          class="card rv tilt flip"
+          tabindex="0"
+          aria-label="STGulpTea — press to flip for details"
+        >
+          <div class="fl">
+            <div class="face front">
+              <span class="flip-hint">↻ Click to flip</span
+              ><span class="tag">Team</span
+              ><button
+                class="pic"
+                type="button"
+                data-lightbox="stgulptea.jpg"
+                data-cap="STGulpTea"
+              >
+                <img
+                  src="stgulptea.jpg"
+                  alt="Mobile app screens for STGulpTea tea ordering"
+                  loading="lazy"
+                /><span class="zoom">View image</span>
+              </button>
+              <div class="in">
+                <h3>STGulpTea</h3>
+                <p class="meta">UI/UX and system design</p>
+                <p>Designed a mobile app for online tea and matcha ordering.</p>
+                <div class="tools">
+                  <span>Figma</span><span>Fishbone</span><span>DFD</span
+                  ><span>Activity Diagram</span><span>Class Diagram</span>
+                </div>
+                <a
+                  class="view"
+                  href="https://www.figma.com/design/BtXgfFF76Al51pSpiuJZuM/Untitled?node-id=0-1&p=f&t=4jkxa110dBilZIH3-0"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="View STGulpTea on Figma"
+                  ><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      fill="#F24E1E"
+                      d="M15.852 8.981h-4.588V0h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.491-4.49 4.491zM12.735 7.51h3.117c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-3.117V7.51zm0 1.471H8.148c-2.476 0-4.49-2.014-4.49-4.49S5.672 0 8.148 0h4.588v8.981zm-4.587-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.02 3.019 3.02h3.117V1.471H8.148zm4.587 15.019H8.148c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h4.588v8.98zM8.148 8.981c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h3.117V8.981H8.148zM8.172 24c-2.489 0-4.515-2.014-4.515-4.49s2.014-4.49 4.49-4.49h4.588v4.441c0 2.503-2.047 4.539-4.563 4.539zm-.024-7.51a3.023 3.023 0 0 0-3.019 3.019c0 1.665 1.365 3.019 3.044 3.019 1.705 0 3.093-1.376 3.093-3.068v-2.97H8.148zm7.704 0h-.098c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h.098c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.49-4.49 4.49zm-.097-7.509c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h.098c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-.098z"
+                    />
+                  </svg>
+                  View on Figma</a
+                >
+              </div>
+            </div>
+            <div class="face back">
+              <p class="lab">Team project · Mobile app</p>
+              <h3>STGulpTea</h3>
+              <p class="meta">UI/UX and system design</p>
+              <p class="lbl">Overview</p>
+              <p>
+                A mobile app for ordering tea and matcha online, built with my
+                team. It covers the full flow: product details, payment, order
+                confirmation, and a review after the product is received.
+              </p>
+              <p class="lbl">What I did</p>
+              <ul>
+                <li>Designed the user-friendly UI/UX in Figma.</li>
+                <li>
+                  Drew a Fishbone Diagram to find the root cause behind the
+                  development needs.
+                </li>
+                <li>Mapped the data flow with a DFD.</li>
+                <li>
+                  Showed the step-by-step user flow with an Activity Diagram.
+                </li>
+                <li>Defined the system structure with a Class Diagram.</li>
+              </ul>
+              <div class="acts">
+                <a
+                  class="view"
+                  href="https://www.figma.com/design/BtXgfFF76Al51pSpiuJZuM/Untitled?node-id=0-1&p=f&t=4jkxa110dBilZIH3-0"
+                  target="_blank"
+                  rel="noopener"
+                  ><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      fill="#F24E1E"
+                      d="M15.852 8.981h-4.588V0h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.491-4.49 4.491zM12.735 7.51h3.117c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-3.117V7.51zm0 1.471H8.148c-2.476 0-4.49-2.014-4.49-4.49S5.672 0 8.148 0h4.588v8.981zm-4.587-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.02 3.019 3.02h3.117V1.471H8.148zm4.587 15.019H8.148c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h4.588v8.98zM8.148 8.981c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h3.117V8.981H8.148zM8.172 24c-2.489 0-4.515-2.014-4.515-4.49s2.014-4.49 4.49-4.49h4.588v4.441c0 2.503-2.047 4.539-4.563 4.539zm-.024-7.51a3.023 3.023 0 0 0-3.019 3.019c0 1.665 1.365 3.019 3.044 3.019 1.705 0 3.093-1.376 3.093-3.068v-2.97H8.148zm7.704 0h-.098c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h.098c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.49-4.49 4.49zm-.097-7.509c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h.098c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-.098z"
+                    />
+                  </svg>
+                  View on Figma</a
+                >
+              </div>
+            </div>
+          </div>
+        </article>
+        <article
+          class="card rv tilt flip"
+          tabindex="0"
+          aria-label="ZeroWaste — press to flip for details"
+        >
+          <div class="fl">
+            <div class="face front">
+              <span class="flip-hint">↻ Click to flip</span
+              ><span class="tag">Team</span
+              ><button
+                class="pic"
+                type="button"
+                data-lightbox="zerowaste.jpg"
+                data-cap="ZeroWaste"
+              >
+                <img
+                  src="zerowaste.jpg"
+                  alt="ZeroWaste dashboard showing points and waste statistics"
+                  loading="lazy"
+                /><span class="zoom">View image</span>
+              </button>
+              <div class="in">
+                <h3>ZeroWaste</h3>
+                <p class="meta">Database developer</p>
+                <p>
+                  Developed a website for managing and exchanging waste with a
+                  points dashboard.
+                </p>
+                <div class="tools"><span>SQL</span><span>phpMyAdmin</span></div>
+                <a
+                  class="view"
+                  href="https://github.com/JhonDeFloretto/Tugas_Akhir_Lecture"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="View ZeroWaste on GitHub"
+                  ><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      fill="#1E6261"
+                      d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                    />
+                  </svg>
+                  View on GitHub</a
+                >
+              </div>
+            </div>
+            <div class="face back">
+              <p class="lab">Team project · Website</p>
+              <h3>ZeroWaste</h3>
+              <p class="meta">Database developer</p>
+              <p class="lbl">Overview</p>
+              <p>
+                A website built with my group: a digital platform that helps
+                people manage and exchange waste in a more organized way. Its
+                dashboard shows points statistics, total waste processed, waste
+                deposit history, waste types, and the user’s membership status.
+              </p>
+              <p class="lbl">What I did</p>
+              <ul>
+                <li>
+                  Contributed to the website’s development, focusing on the SQL
+                  database.
+                </li>
+                <li>Built and managed the database directly in phpMyAdmin.</li>
+              </ul>
+              <div class="acts">
+                <a
+                  class="view"
+                  href="https://github.com/JhonDeFloretto/Tugas_Akhir_Lecture"
+                  target="_blank"
+                  rel="noopener"
+                  ><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      fill="#1E6261"
+                      d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                    />
+                  </svg>
+                  View on GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </main>
+    <footer>
+      <div class="fc glass">
+        <div>
+          <h3>Contact</h3>
+          <p>Flojhon251@gmail.com</p>
+          <p>Jhon.Floretto@binus.ac.id</p>
+          <p>087880434130</p>
+        </div>
+        <div class="links">
+          <a
+            href="https://www.linkedin.com/in/jhon-de-floretto-67709a324"
+            target="_blank"
+            rel="noopener"
+            >LinkedIn</a
+          >
+          <a
+            href="https://github.com/JhonDeFloretto"
+            target="_blank"
+            rel="noopener"
+            >GitHub</a
+          >
+          <a href="https://wa.me/6287880434130" target="_blank" rel="noopener"
+            >WhatsApp</a
+          >
+          <a href="mailto:Flojhon251@gmail.com">Email</a>
+        </div>
+      </div>
+      <div class="copy">© 2026 Jhon De Floretto</div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
 </html>
